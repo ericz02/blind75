@@ -1,3 +1,6 @@
+#  two-pass prefix-sum and postfix-sum algorithm to compute the product of all 
+# elements in the array except for the element at the current index
+
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
         res = [1] * (len(nums))
