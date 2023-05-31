@@ -18,5 +18,5 @@ def findMin(nums):
             right = mid
 
     # When the loop ends, the left pointer will be pointing to the minimum element.
-    # Return the value at that index.
+    # Return the value at that index
     return nums[left]
